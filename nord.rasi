@@ -25,14 +25,13 @@
 }
 #inputbar {
     text-color: @nord3;
-    padding: 6px;
-    margin: 0px 0px 2px;
+    padding: 8px;
     children: [ entry ];
 }
 #entry {
     background-color: @nord3;
     text-color: @nord4;
-    padding: 5px;
+    padding: 8px;
 }
 #message {
     border: 0px 0px 1px;
@@ -40,14 +39,20 @@
     padding: 0px 0px 6px 7px;
 }
 #listview {
-    lines: 10;
-    padding: 2px 0px 0px;
+    lines: 5;
+    padding: 0px 0px 8px;
     scrollbar: true;
 }
 #element {
-    padding: 0px 0px 0px 7px;
-    margin: 0px 0px 5px 0px;
+    padding: 0px 8px 0px 8px;
     text-color: @nord4;
+}
+#element-icon {
+    size: 48px;
+    padding: 8px;
+}
+#element-text {
+    vertical-align: 0.5;
 }
 #element.normal.normal {
     text-color: @nord4;
@@ -81,7 +86,7 @@
 }
 #scrollbar {
     handle-color: @nord3;
-    handle-width: 0.50em;
+    handle-width: 8px;
 }
 #button.selected {
     background-color: @nord8;
