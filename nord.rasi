@@ -23,6 +23,10 @@
     spacing: 0px;
     text-color: @nord4;
 }
+#window {
+    border: 2px;
+    border-color: @nord3;
+}
 #inputbar {
     text-color: @nord3;
     padding: 8px;
